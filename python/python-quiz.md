@@ -566,16 +566,6 @@ def sum(a, b):
 - [ ] a tuple subclass with non-iterable parameter fields
 - [x] a tuple subclass with iterable named fields
 
-**Example**
-
-```python
-import math
-radius = [1,2,3]
-area = list(map(lambda x: round(math.pi*(x**2), 2), radius))
-area
->>> [3.14, 12.57, 28.27]
-```
-
 #### Q39. What symbol(s) do you use to assess equality between two elements?
 
 - [ ] `&&`
